@@ -1,0 +1,42 @@
+
+.detalis
+{
+margin: 0;padding: 0;box-sizing: border-box;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+
+
+color: rgb(14, 2, 2);
+}
+table
+{
+  
+
+    margin-top: 1rem;
+    border: 2px solid;
+
+}
+
+tr th,td
+{
+    border: 1px solid;
+}
+
+
+.action
+{
+    cursor: pointer;
+}
+.action >a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.action >a:hover
+{
+    color: black;
+}

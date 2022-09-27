@@ -1,0 +1,32 @@
+nav
+{
+    width: 100vw;
+ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 2, 21);
+    
+    
+}
+
+ul
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 2rem;  
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.link:hover
+{
+    color: gray;
+    border-radius: 20px;
+    
+
+}
